@@ -9,7 +9,7 @@ $ (function() {
     // additionne les valeurs et les divises par 5
     var test = [parseInt(n1) + parseInt(n2) + parseInt(n3) + parseInt(n4) + parseInt(n5)] / 5;
     // renvoie le résultat et l'appréciation selon la moyennes
-    var result;
+    var result = test;
     // Si la moyenne de l'élève est supérieure ou égale à 0 et inférieure à 10, il aura comme appréciation : "En dessous de la moyenne".
       if (test <10 ){
         alert("En dessous de la moyenne")
